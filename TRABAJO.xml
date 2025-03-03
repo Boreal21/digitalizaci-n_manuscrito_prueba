@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejemplo_esquema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Relación de un viaje al Río de la Plata</title>
+                <editor>Ariadna Margarita Delgado Beraun</editor>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>Este texto se publica con licencia de uso abierto Creative Commons</p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <publisher>La Revista de Buenos Aires</publisher>
+                    <pubPlace>Buenos Aires</pubPlace>
+                    <date when="1967-05">Mayo de 1867</date>
+                    <author>M. Acarete du Biscay</author> 
+                </bibl>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <graphic url="pagina_19.png" xml:id="p19"></graphic>
+        <graphic url="pagina_20.png" xml:id="p20"></graphic>
+    </facsimile>
+    
+    <text>
+        <body>
+        <pb n="19" facs="#p19"/>
+        <p><lb break="yes"/>tiempo en que salen de la cáscara, hasta que se hallan en 
+        <lb break="yes"/>aptitud de ir mas lejos en busca de alimentos.</p>
+
+        <p><lb break="yes"/>Las casas de los habitantes de primera clase están ador-<lb break="no"/>nadas 
+        con colgaduras, cuadros y otros ornamentos y muebles 
+        <lb break="yes"/>decentes, y todos los que se encuentran en <choice><orig>situacion</orig><reg>situación</reg></choice> regular 
+        <lb break="yes"/>son servidos en vajilla de plata y tienen muchos sirvientes, 
+        <lb break="yes"/>negros, mulatos, mestizos, indios, cafres <choice><orig>ó</orig><reg>o</reg></choice> zambos, siendo 
+        <lb break="yes"/>todos estos esclavos. Los negros proceden de <name type="lugar">Guinea</name>, los 
+        <lb break="yes"/>mulatos son el engendro de un español, en una negra, los 
+        <lb break="yes"/>mestizos son el fruto de una india y un español, y los zambos 
+        <lb break="yes"/>de un indio y una mestiza, distinguibles todos por el color
+        <lb break="yes"/>de su tez y su pelo.</p>
+
+        <p><lb break="yes"/>Estos esclavos son empleados en las casas de sus amos
+        <lb break="yes"/><choice><orig>ó</orig><reg>o</reg></choice> en cultivar su terrenos, pues tienen grandes chacras abun-<lb break="no"/>dantemente 
+        sembradas de granos, como trigo, cebada y mijo; 
+        <lb break="yes"/><choice><orig>ó</orig><reg>o</reg></choice> bien para cuidar de sus caballos, <choice><orig>ó</orig><reg>o</reg></choice> mulas, que en todo el 
+        <lb break="yes"/>año solo se alimentan con pasto, <choice><orig>ó</orig><reg>o</reg></choice> bien en matar toros cer-<lb break="no"/>riles, 
+        y finalmente para cualquier otro servicio.</p>
+        
+        <p><lb break="yes"/>Toda la riqueza de estos habitantes consiste en ganados 
+        <lb break="yes"/>que se multiplican tan prodigiosamente en esta provincia, 
+        <lb break="yes"/>que las llanuras están cubiertas de ellos particularmente de 
+        <lb break="yes"/>toros, vacas, ovejas, caballos, yeguas, mulas, burros, cer-<lb break="no"/>dos, 
+        venados y otros, de tal modo, que si no fuese por un nú-<lb break="no"/>mero 
+        de perros que se devoran los terneros y otros animales 
+        <lb break="yes"/>tiernos, <choice><orig>devastarian</orig><reg>devastarían</reg></choice> el <choice><orig>pais</orig><reg>país</reg></choice>. Sacan tanto provecho de las
+        <lb break="yes"/>pieles y cueros de estos animales, que un solo ejemplo bas-<lb break="no"/>tará 
+        para dar una idea de cuánto <choice><orig>podria</orig><reg>podría</reg></choice> este aumentarse 
+        <lb break="yes"/>en buenas manos.</p>
+
+        <p><lb break="yes"/>Los veintidos buques holandeses que encontramos en 
+        <lb break="yes"/>Buenos Aires <choice><orig>á</orig><reg>a</reg></choice> nuestra llegada, estaban cargados, cada uno 
+        <lb break="yes"/>de <choice><sic>elloscon</sic><corr>ellos con</corr></choice> 13 <choice><orig>á</orig><reg>a</reg></choice> 14,000 cueros de toro cuando menos, cuyo</p>
+
+        <pb n="20" facs="#p20"/>
+        </body>
+    </text>
+
+    
+
+
+</TEI>
